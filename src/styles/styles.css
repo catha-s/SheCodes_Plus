@@ -1,0 +1,76 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #494949;
+}
+
+.bodycontainer {
+  width: 35em;
+  padding: 40px 20px;
+  margin-top: 20px;
+  background-image: url(src/images/clouds.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: 0px 0px 15px silver;
+}
+
+header {
+  margin: 4em 0em -1em 0em;
+}
+
+.ico_location {
+  margin: 20px 0;
+  font-size: 26px;
+  display: inline-block;
+}
+
+.gridForecast {
+  width: 90%;
+  margin: 7em auto;
+}
+
+.row {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.row:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.weekday,
+.mintemp {
+  text-align: left;
+}
+
+.maxtemp {
+  text-align: right;
+}
+
+.cityChange {
+  background: rgba(255, 255, 255, 0.6);
+  color: #494949;
+  width: 86%;
+  margin: 10px auto 15px auto;
+  border-color: transparent;
+}
+
+.cityChange:focus {
+  background: rgba(255, 255, 255, 0.6);
+  color: #494949;
+}
+
+#btn_myLocation {
+  background: rgba(255, 255, 255);
+  color: #494949;
+  margin: 0 auto;
+  padding: 2px 8px;
+  border-color: transparent;
+  border-radius: 8px;
+  opacity: 60%;
+}
+
+#btn_myLocation:hover {
+  opacity: 85%;
+}
